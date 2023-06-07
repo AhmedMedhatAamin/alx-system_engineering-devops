@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la && (cd .. && ls -la) && ls -la /boot
+(ls -la) | (read; cd ..; ls -la) | (read; cd /boot; ls -la)
