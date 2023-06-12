@@ -1,1 +1,1 @@
-script to display a smile
+Display the content of /etc/passwd and /etc/hosts
