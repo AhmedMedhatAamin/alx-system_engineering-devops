@@ -1,1 +1,1 @@
-Write a script that duplicates the last line of the file iacta
+create a script that creates an alias
