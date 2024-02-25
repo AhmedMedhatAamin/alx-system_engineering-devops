@@ -1,0 +1,2 @@
+1- used load balancer to manage the traffic between the two servers 
+
