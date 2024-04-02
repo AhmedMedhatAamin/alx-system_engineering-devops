@@ -19,4 +19,12 @@ if [[ -z $FIND ]]; then
 fi
 
 # Restart Nginx to apply changes
-sudo systemctl restart nginx
+# Use the appropriate command based on your init system
+# For SysVinit systems (e.g., Debian 9), use:
+# sudo service nginx restart
+# For Upstart systems (e.g., Ubuntu 14.04), use:
+# sudo initctl restart nginx
+# For other systems, consult the documentation or use the appropriate command.
+# Here, we'll use the generic approach of stopping and starting Nginx.
+sudo nginx -t && sudo nginx -s reload
+
