@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+# Update package information
+apt-get update
+
+# Install HAProxy
+apt-get -y install haproxy
+
+# Configure HAProxy
+cat <<EOF >> /etc/haproxy/haproxy.cfg
+frontend sammykingx.tech
+        bind 0:80
+        default_backend web_servers
+
+backend web_servers
+        balance roundrobin
+        server 431459-web-01 [STUDENT_ID]-web-01:80 check
+        server 431459-web-02 [STUDENT_ID]-web-02:80 check
+EOF
+
+# Restart HAProxy service
+systemctl restart haproxy
+
