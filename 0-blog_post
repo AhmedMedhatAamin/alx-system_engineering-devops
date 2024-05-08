@@ -1,0 +1,20 @@
+Getting Google's Address: When you type "google.com" into your browser and hit Enter, your computer needs to figure out where Google's website is located. It's like looking up a friend's address before visiting them.
+
+Preparing the Message: Once your computer knows where Google is, it prepares a message to send to Google's address. This message contains information like what you're asking for (like the homepage of Google), and it's packaged up neatly for delivery.
+
+Sending the Message with a Guide: Imagine your message is put into a special envelope with detailed instructions on how to get to Google. This envelope ensures that your message doesn't get lost on the way and that it arrives intact.
+
+Security Check: Before your message leaves your computer, it goes through a security check called a firewall. This is like having a guard at the gate of your house, making sure only safe things go in and out.
+
+Making Sure Nobody Eavesdrops: To keep your message private, it's encrypted. It's like speaking in a secret code that only Google can understand, so nobody else can listen in on your conversation.
+
+Sharing the Load: To make sure Google's servers don't get overwhelmed by too many requests, there's a system called a load balancer. It's like having multiple checkout lanes at a store to keep things moving smoothly.
+
+Receiving a Warm Welcome: When your message reaches Google's servers, it's greeted by a web server. It's like arriving at Google's headquarters and being welcomed by their receptionist.
+
+Getting Down to Business: After passing through the web server, your message reaches the application server. This is where the real work happens, like running Google's search algorithms or displaying search results.
+
+Finding What You Need: To get the information you asked for, the application server talks to a database. It's like asking Google's librarian to find the information you're looking for in their vast library of data.
+
+The Journey Back Home: Once Google has gathered the information you requested, it packages it up and sends it back to your computer, following the same steps in reverse.
+
